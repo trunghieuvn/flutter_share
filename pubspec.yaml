@@ -3,6 +3,9 @@ description: Simple way to share message, links or files from your flutter app f
 version: 2.0.0
 homepage: https://github.com/lubritto/flutter_share
 
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
 dependencies:
   flutter:
     sdk: flutter
@@ -19,8 +22,4 @@ flutter:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  pedantic: ^1.11.0
-
-environment:
-  sdk: '>=2.12.0 <3.0.0'
-  flutter: '>=1.10.0'
+  pedantic:
